@@ -11,7 +11,7 @@ A [Polybar](https://github.com/jaagr/polybar) module to display online channels 
 
 1. Copy `ploybar_twitch` to `~/.config/polybar` (or pull this repo and symlink the script)
 
-2. Make the scrip executable with `chmod +x ~/.config/polybar/polybar_twitch`
+2. Make the script executable with `chmod +x ~/.config/polybar/polybar_twitch`
 
 3. Add the module to your polybar config:
 
