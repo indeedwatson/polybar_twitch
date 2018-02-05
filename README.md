@@ -1,17 +1,17 @@
 # Polybar Twitch
 
-A [Polybar] module to display online channels from Twitch
+A [Polybar](https://github.com/jaagr/polybar) module to display online channels from Twitch
 
 
 ## Dependencies
 
-[twitchnotifier]
+[twitchnotifier](https://github.com/GiedriusS/TwitchNotifier)
 
-[font-awesome] for Twitch icon
+[font-awesome](https://fontawesome.com/) for Twitch icon
 
 ## Setup
 
-1. copy `ploybar_twitch` to `~/.config/polybar` (or pull this repo and symlink the script)
+1. Copy `ploybar_twitch` to `~/.config/polybar` (or pull this repo and symlink the script)
 
 2. Make the scrip executable with `chmod +x ~/.config/polybar/polybar_twitch`
 
@@ -23,8 +23,8 @@ exec = ~/.config/polybar/polybar_twitch
 format = <label>
 
 format-prefix = 
-format-prefix-padding = 1```
-
+format-prefix-padding = 1
+```
 
 ## TODO
 
