@@ -15,7 +15,8 @@ A [Polybar](https://github.com/jaagr/polybar) module to display online channels 
 
 3. Add the module to your polybar config:
 
-```[module/twitch]
+```
+[module/twitch]
 type = custom/script
 exec = ~/.config/polybar/polybar_twitch
 format = <label>
