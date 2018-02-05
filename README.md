@@ -1,13 +1,11 @@
-# Polybar Twitch
-
 A [Polybar](https://github.com/jaagr/polybar) module to display online channels from Twitch
 
 
 ## Dependencies
 
-[twitchnotifier](https://github.com/GiedriusS/TwitchNotifier)
+- [twitchnotifier](https://github.com/GiedriusS/TwitchNotifier)
 
-[font-awesome](https://fontawesome.com/) for Twitch icon
+- [font-awesome](https://fontawesome.com/) for Twitch icon
 
 ## Setup
 
