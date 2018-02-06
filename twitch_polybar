@@ -1,5 +1,6 @@
 #!/bin/bash
 
-twitch_user='tacticcarrotcake'
+# fill your username here
+twitch_user=''
 
 twitchnotifier -c $twitch_user -n
