@@ -41,22 +41,18 @@ def getOnlineChans(channels, headers):
                 headers = headers)
         online = r.json()
         if online['stream'] != None:
-            # stream = online['stream']['channel']['_id']
-            # make a dict with the display_name as the stream, containing 
-            # selected attr from the dict
             onlineChans[stream] = {'name': \
                     online['stream']['channel']['display_name'], \
                     'game': online['stream']['game']}
             printStreams(onlineChans.items())
             time.sleep(10)
 
-    #return onlineChans
 
 def printStreams(dic):
     for chan, info in dic:
         print('{}: {}'.format(info.get('name'), info.get('game')))
 
-#username = 'tacticcarrotcake'
+
 headers = {'Client-ID': 'l62zpdkfreec6bbsoffjw0lyjtiwkc',
          'Accept': 'application/vnd.twitchtv.v5+json'}
 
